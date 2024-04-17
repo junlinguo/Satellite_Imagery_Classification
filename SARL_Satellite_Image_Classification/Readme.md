@@ -6,7 +6,9 @@ This repository contains the scripts and resources used for our machine learning
 
 The dataset used in this experiment is hosted on Google Drive. You can access the data via the following link:
 
-[Access Dataset](https://drive.google.com/drive/folders/1X5LfBMy8GR0xUs-7ZOdwQlqJMzRtxflw?usp=sharing)
+[Access Dataset through this link](https://drive.google.com/drive/folders/1X5LfBMy8GR0xUs-7ZOdwQlqJMzRtxflw?usp=sharing)
+
+`correct_labels`: The paths and labels of the training, validation, testing dataset used in the experiment.
 
 ## Scripts Description
 

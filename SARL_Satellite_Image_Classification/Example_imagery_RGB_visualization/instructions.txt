@@ -1,0 +1,2 @@
+R, G, B correspond to band indices: 4, 2, 1
+Upload few examples for visualizing the features (objects)

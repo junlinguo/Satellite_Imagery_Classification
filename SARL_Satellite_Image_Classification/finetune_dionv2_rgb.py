@@ -29,12 +29,12 @@ train_setup = {'img_label': '/home/guoj5/Desktop/correct_labels/Train.csv',
                'lr': 1e-5}
 val_setup = {'img_label': '/home/guoj5/Desktop/correct_labels/Valid.csv',
              'batch_size': 16,
-             'output_path':'/home/guoj5/Desktop/metrics/ver2/dinov2'  }
+             'output_path':'/home/guoj5/Desktop/metrics/ver2/dinov2'}
 if not os.path.isdir(val_setup['output_path']):
-    os.mkdir(val_setup['output_path'])
+    os.makedirs(val_setup['output_path'],  exist_ok=True)
 
 if not os.path.isdir(os.path.join(val_setup['output_path'], str(trial))):
-    os.mkdir(os.path.join(val_setup['output_path'], str(trial)))
+    os.makedirs(os.path.join(val_setup['output_path'], str(trial)), exist_ok=True)
 
 val_setup['output_path'] = os.path.join(val_setup['output_path'], str(trial))
 
